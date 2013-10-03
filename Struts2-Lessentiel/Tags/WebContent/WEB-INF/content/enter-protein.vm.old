@@ -1,0 +1,17 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Enter Protein</h1>
+	#sform("action=enter-protein")
+		#stextfield( "name=enteredProtein")
+		#ssubmit ("value=Enter")
+	#end	
+<div>Last Amount entered:#sproperty( "value=enteredProtein")</div>	  
+<div>Total for the day Goal:  100 grams</div>  
+<div>Goal:  200 grams</div>
+<div>#sproperty( "value=goalText")
+</body>  
+</html>
